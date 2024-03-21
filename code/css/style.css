@@ -12,6 +12,7 @@ body p {
   font-size: 16px;
   line-height: 1.5;
   color: #0C4445;
+  margin-bottom: 6em;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-weight: 600;
@@ -57,12 +58,13 @@ nav a {
   color: #fff;
   padding: 0.5em;
   margin: 0.5em;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   text-decoration: none;
 }
 nav a:hover {
   color: #9A6B4F;
+  transition: 0.3s ease-in-out;
 }
 
 .mobil-nav {
@@ -72,4 +74,57 @@ nav a:hover {
 
 .hero-tekst-mobil {
   display: none;
+}
+
+/*Main*/
+main {
+  grid-column: 1/6;
+  display: grid;
+  font-size: 30px;
+}
+main h2 {
+  text-align: center;
+  font-size: 50px;
+}
+main p {
+  text-align: center;
+  font-size: 20px;
+  padding: 0 200px;
+}
+
+.seneste-nyt {
+  background-color: #0C4445;
+  text-align: center;
+}
+.seneste-nyt h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 2em;
+}
+.seneste-nyt .sidescroll {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 26%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  gap: 2em;
+  padding: 0 2em 2em;
+}
+
+.cta-1 h3, .cta-2 h3, .cta-3 h3, .cta-4 h3, .cta-5 h3, .cta-6 h3, .cta-7 h3, .cta-8 h3 {
+  color: #fff;
+  font-size: 25px;
+}
+.cta-1 a, .cta-2 a, .cta-3 a, .cta-4 a, .cta-5 a, .cta-6 a, .cta-7 a, .cta-8 a {
+  background-color: #86C3C4;
+  padding: 0.8em 1em;
+  border-radius: 8px;
+  color: #0C4445;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+.cta-1 a:hover, .cta-2 a:hover, .cta-3 a:hover, .cta-4 a:hover, .cta-5 a:hover, .cta-6 a:hover, .cta-7 a:hover, .cta-8 a:hover {
+  background-color: #9A6B4F;
+  transition: 0.3s ease-in-out;
 }/*# sourceMappingURL=style.css.map */

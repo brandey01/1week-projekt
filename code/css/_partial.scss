@@ -20,3 +20,10 @@ $font: newsreader;
     text-align: center;
 }
 
+@mixin cta-box($width: 20vw){
+    background-color: #fff;
+    width: $width;
+    padding: 1em;
+    margin: 1em auto;
+}
+
