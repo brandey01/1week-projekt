@@ -1,0 +1,22 @@
+/*Variables*/
+$primary-color: #0C4445;
+$secondary-color: #86C3C4;
+$hover-color: #9A6B4F;
+$font: newsreader;
+
+/*Mixins*/
+@mixin flex($justify: center, $align: center){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin btn($bg-color: $secondary-color, $btn-padding: 0.8em 1em){
+    background-color: $bg-color;
+    padding: $btn-padding;
+    border-radius: 8px;
+    color: $primary-color;
+    text-decoration: none;
+    text-align: center;
+}
+
