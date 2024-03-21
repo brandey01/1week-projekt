@@ -1,6 +1,6 @@
 @use 'partial'; /*kalder på partial filen*/
 
-*{
+body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -31,7 +31,6 @@ img{
 /*Navigation*/
 header{
     grid-column: 1/6;
-    @include partial.flex($justify: space-between);
     background-color: partial.$primary-color;
     border-bottom: 4px solid partial.$secondary-color;
 }
@@ -68,6 +67,9 @@ nav{
 .mobil-nav{
     display: none;
     cursor: pointer;
+}
 
+.hero-tekst-mobil{
+    display: none;
 }
 

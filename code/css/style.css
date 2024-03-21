@@ -2,18 +2,18 @@
 /*Variables*/
 /*Mixins*/
 /*kalder på partial filen*/
-* {
+body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: newsreader;
 }
-* p {
+body p {
   font-size: 16px;
   line-height: 1.5;
   color: #0C4445;
 }
-* h1, * h2, * h3, * h4, * h5, * h6 {
+body h1, body h2, body h3, body h4, body h5, body h6 {
   font-weight: 600;
   color: #0C4445;
 }
@@ -32,9 +32,6 @@ img {
 /*Navigation*/
 header {
   grid-column: 1/6;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #0C4445;
   border-bottom: 4px solid #86C3C4;
 }
@@ -71,4 +68,8 @@ nav a:hover {
 .mobil-nav {
   display: none;
   cursor: pointer;
+}
+
+.hero-tekst-mobil {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
