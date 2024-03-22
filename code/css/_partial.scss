@@ -14,7 +14,7 @@ $font: newsreader;
 @mixin btn($bg-color: $secondary-color, $btn-padding: 0.8em 1em){
     background-color: $bg-color;
     padding: $btn-padding;
-    border-radius: 8px;
+    border-radius: 20px;
     color: $primary-color;
     text-decoration: none;
     text-align: center;
